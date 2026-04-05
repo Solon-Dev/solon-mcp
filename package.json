@@ -1,0 +1,25 @@
+{
+  "name": "solon-mcp",
+  "version": "1.0.0",
+  "description": "Solon AI MCP server — enforce your team coding standards from Claude Code or Cursor",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "solon-mcp": "index.js"
+  },
+  "keywords": [
+    "mcp",
+    "code-review",
+    "standards",
+    "ai",
+    "claude",
+    "cursor",
+    "github"
+  ],
+  "author": "Donta Ruffin",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.25.76"
+  }
+}
