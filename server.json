@@ -1,0 +1,30 @@
+{
+  "name": "solon-mcp",
+  "version": "1.0.0",
+  "display_name": "Solon AI",
+  "description": "Enforce your team's coding standards directly from Claude Code or Cursor. Check code against playbook rules, get enabled rules for a repo, and log reviews to your Solon AI dashboard.",
+  "homepage": "https://solonreview.dev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Solon-Dev/solon-mcp"
+  },
+  "installation": {
+    "type": "npm",
+    "package": "github:Solon-Dev/solon-mcp"
+  },
+  "tools": [
+    {
+      "name": "solon_check_standards",
+      "description": "Check code against your team's playbook rules configured in Solon AI"
+    },
+    {
+      "name": "solon_get_playbook",
+      "description": "Get the enabled playbook rules for a connected repo in Solon AI"
+    },
+    {
+      "name": "solon_record_review",
+      "description": "Record a completed code review to the Solon AI dashboard"
+    }
+  ]
+}
